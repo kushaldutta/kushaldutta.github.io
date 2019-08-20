@@ -9,5 +9,28 @@ body
 	background-color: lightblue;
 	color: black;
 }	
-	
-	
+h1
+{
+	text-align: center;
+}	
+a
+{
+  color: white;
+}
+h2
+{
+	text-align: center;
+}		
+iframe
+{
+display: block;
+margin: 0 auto;
+  }
+h3
+{
+	text-align: center;
+}		
+h4
+{
+	text-align: center;
+}		
