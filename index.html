@@ -2,6 +2,16 @@
 <html class="no-js" lang="en">
 
 <head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-143371452-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-143371452-1');
+</script>
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -45,6 +55,9 @@
             <li>
                 <a href="#contact">Contact</a>
             </li>
+			<li>
+                <a href="#education">Leadership</a>
+            </li>
         </ul>
     </header>
     <!-- End header -->
@@ -67,26 +80,19 @@
     <!-- End #lead -->
 
     <div id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <h2 class="heading">About Me</h2>
-					<br/>
-					<div  class="project-image" >
-							<img src="images/prof.JPG" alt="Profile Pic" style="width:150px;height150px;">
-					</div>
-                </div>
-                <div class="col-md-8">
-                    <p>
-                        Hi, I'm Kushal, a freshman at Branham High School. Welcome to my personal website! 
-						I have interests in engineering, music, math, and basketball. 
-						This website features my accomplishments, projects, and more. 
-						Feel free to look around and definitely
-						<a href="#contact">contact</a> me with any questions, comments, or concerns!
-                    </p>
-                </div>
-            </div>
-        </div>
+        <h2 class="heading">About Me</h2>
+		<br/>
+		<p>
+			<img src="images/prof.JPG" alt="Profile Pic" style="width:250px;height250px;">
+		</p>
+		<br/>
+        <p>
+            Hi, I'm Kushal, a freshman at Branham High School. Welcome to my personal website! 
+			I have interests in engineering, music, math, and basketball. 
+			This website features my accomplishments, projects, and more. 
+			Feel free to look around and definitely
+			<a href="#contact">contact</a> me with any questions, comments, or concerns!
+        </p>
     </div>
     <!-- End #about -->
 						
@@ -140,7 +146,7 @@
             <h4></h4>
 			<ul>
                 <li>
-					Activities: Associated Student Body Government
+					Activities: <a href="leadership.html" target="_blank">Associated Student Body Government (Leadership) </a>
                 </li>
 				<li>
 					Relevant Coursework: Concert Band
@@ -172,7 +178,7 @@
             <div class="row">
                 <div class="project shadow-large">
                     <div class="project-image">
-                        <img src="images/project.jpg" />
+                        <img src="images/project.jpg" style="width:300px;height300px;"/>
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
@@ -195,12 +201,16 @@
 	<div id="music">
 		<h2 class="heading">Music</h2>
 		<br/>
+		<p>
+			I have experience in tuba and guitar, and have interests in production of rap and R&B music.
+		</p>
+		<br/>
 		<iframe width="560" height="315" src="https://www.youtube.com/embed/OKiHKL-qNcg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		<iframe width="560" height="315" src="https://www.youtube.com/embed/CZfOliztXsM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	</div>
     <!-- End #music -->		
 
-    <div id="skills">   
+    <div id="skills" class="background-alt">   
 		<h2 class="heading">Skills</h2>
         <ul>
             <li>Python</li>
@@ -216,6 +226,7 @@
         <div id="contact-form">
             <form method="POST" action="https://formspree.io/kushaldutta1749@gmail.com">
                 <input type="hidden" name="_subject" value="Contact request from personal website" />
+				<input type="name" name="name" placeholder="Your name" required>
                 <input type="email" name="_replyto" placeholder="Your email" required>
                 <textarea name="message" placeholder="Your message" required></textarea>
                 <button type="submit">Send</button>
