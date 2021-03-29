@@ -17,15 +17,6 @@ body.active{overflow:hidden;z-index:-1}
 .no-js #experience-timeline>div h4{font-size:1.2em;font-weight:300;color:#7e8890;margin:0 0 15px 0}
 .no-js #experience-timeline>div p{color:#74808a;font-size:0.9em;margin:0}
 .no-js #experience-timeline:before,.no-js #experience-timeline:after{content:none}
-* {
-  box-sizing: border-box;
-}
-
-.column {
-  float: left;
-  width: 50%;
-  padding: 5px;
-}
 
 /* Clearfix (clear floats) */
 .row::after {
